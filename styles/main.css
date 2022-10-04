@@ -1,0 +1,45 @@
+/* Цвет основного текста #757575*/
+/* Вторичный цвет текста  #212121*/
+/* Белый 
+#FFFFFF */
+/* Серый #AFB1B8 */
+/* Акцент 
+#2196F3 */
+
+.list {
+  list-style: none;
+}
+/* Hero */
+.hero-title {
+  color: var(--accent-color);
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.command .title {
+  color: var(--title-text-color);
+}
+.clients .title {
+  color: var(--title-text-color);
+}
+.address .title {
+  background-color: var(--title-text-color);
+  color: var(--primary-white-color);
+}
+.address .title-secondary {
+  background-color: var(--title-text-color);
+  color: rgba(255, 255, 255, 0.6);
+}
+.join-us {
+  background-color: var(--title-text-color);
+  color: var(--primary-white-color);
+}
+
+.join-us .title-open:hover,
+.join-us .title-open:focus {
+  color: var(--accent-color);
+}
